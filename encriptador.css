@@ -1,0 +1,98 @@
+/*CSS para header */
+header {
+    width: auto;
+    position: relative;
+    margin: 0 auto;
+    padding: 20px 20px;
+}
+
+/*CSS para  body */
+.principal{
+    font-size: 20px;
+    font-weight:bold;
+    position: relative;
+    margin-left: 10%;
+    padding: 10px 10px;
+}
+
+.texto{
+    font-size: 15px;
+    padding: 10px 10px;
+    background: linear-gradient(3deg, gold 10%, red, black);
+    margin: 0.5em auto;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+}
+
+.texto:hover{
+    opacity: 0.8;
+    transition: 400ms;
+    box-shadow: 10px 10px 30px 15px gold, inset -5px -5px 20px 19px gold;
+}
+
+/* botones*/
+.encriptar{
+    width: 45%;
+    padding: 8px  8px;
+    margin-right: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #FFFFFF;
+    background: #c78c19;
+    border-radius: 10px;
+    transition: 1s all;
+}
+
+.encriptar:hover {
+    background: darkorange;
+    cursor: pointer;
+    transform: scale(1.2) rotate(02deg);
+}
+.encriptar:active{
+    color:#3ac04a;
+}
+
+.desencriptar{
+    width: 60%;
+    padding: 11px 11px;
+    margin: 18px 0 18px 0;
+    font-size: 18px;
+    font-weight: bold;
+    color: #FFFFFF;
+    background: green;
+    border-radius: 10px;
+    transition: 1s all;
+}
+
+.desencriptar:hover {
+    background: darkgreen;
+    cursor: pointer;
+    transform: scale(1.2) rotate(02deg);
+}
+.desencriptar:active{
+    color: #FFFFFF;
+}
+
+.respuesta{
+    font-size: 15px;
+    padding: 10px 10px;
+    background: linear-gradient(3deg, rgb(144, 144, 180) 10%, rgb(62, 62, 156), blue);
+    margin: 0.5em auto;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+}
+footer{
+    text-align: center;
+    background: url(imagenes/bg.jpg);
+    padding: 20px;
+}
+
+
+
+
+
+

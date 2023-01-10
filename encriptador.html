@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <title>encriptadorWF</title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="encriptador.css">
+    </head>
+
+    <body>
+        <header>
+            <div class="encabezado">
+                <h1><img src="imagenes/logo_alura.jfif" alt="Logo de Alura"></h1>
+            </div>
+        </header>
+    </body>
+
+    <main>
+        <section class="principal">
+            <h2 class="titulo-principal"> (DES)ENCRIPTADOR DE TEXTO</h2>
+        </section>
+
+        <section class="texto">
+            <label for="mensaje"></label>
+            <textarea cols="33" rows="10" id="mensaje" class="input-padre" required placeholder="Escribe aquí tu mensaje porfavor (sin tíldes; sin acentos)"></textarea>
+        </section>
+
+        <section class="botones">
+            <input type="submit" value="ENCRIPTAR" class="encriptar">
+            <input type="submit" value="DESENCRIPTAR" class="desencriptar">
+        </section>
+
+        <section class="respuesta">
+            <label for="respuesta"></label>
+            <textarea cols="33" rows="10" id="respuesta" class="input-hija"></textarea>
+        </section>
+
+
+    </main>
+
+    <footer>
+        <img src="imagenes/logoWF.png" alt="Logo del autor">
+        <p class="copyright">&copy  Copyright WF</p>
+    </footer>
