@@ -1,10 +1,13 @@
+
+<!--Encrypter is a code to encrypt and to decrypt messages in text.  The languages used are  js, html5 and css3.-->
+
 <!DOCTYPE html>
 <html lang="es">
 
     <head>
         <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width">
-        <title>encriptadorWF</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>(d)encryptWF</title>
         <link rel="stylesheet" href="reset.css">
         <link rel="stylesheet" href="encriptador.css">
     </head>
@@ -17,6 +20,8 @@
         </header>
     </body>
 
+    <script src="encriptador.js"></script>
+
     <main>
         <section class="principal">
             <h2 class="titulo-principal"> (DES)ENCRIPTADOR DE TEXTO</h2>
@@ -24,23 +29,19 @@
 
         <section class="texto">
             <label for="mensaje"></label>
-            <textarea cols="33" rows="10" id="mensaje" class="input-padre" required placeholder="Escribe aquí tu mensaje porfavor (sin tíldes; sin acentos)"></textarea>
+            <textarea cols="33" rows="10" name="mensaje" id="mensaje" class="input-padre" required placeholder="Escribe aquí tu mensaje porfavor (sin tíldes; sin acentos)"></textarea>
+            <textarea cols="33" rows="10" name="respuesta" id="respuesta" class="input-padre" placeholder="su respuesta aquí"></textarea>
         </section>
 
         <section class="botones">
-            <input type="submit" value="ENCRIPTAR" class="encriptar">
-            <input type="submit" value="DESENCRIPTAR" class="desencriptar">
+            <button type="button" class="encriptar" onclick="encriptar()">Encriptar</button>
+            <button type="button" class="desencriptar" onclick="desencriptar()">Desencriptar</button>
+            <button type="submit" class="copiar" onclick="copyText()" >Copiar</button>
         </section>
-
-        <section class="respuesta">
-            <label for="respuesta"></label>
-            <textarea cols="33" rows="10" id="respuesta" class="input-hija"></textarea>
-        </section>
-
 
     </main>
 
     <footer>
         <img src="imagenes/logoWF.png" alt="Logo del autor">
-        <p class="copyright">&copy  Copyright WF</p>
+        <p class="copyright">Copyright WF</p>
     </footer>

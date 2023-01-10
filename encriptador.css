@@ -34,10 +34,10 @@ header {
 
 /* botones*/
 .encriptar{
-    width: 45%;
+    width: 65px;
     padding: 8px  8px;
     margin-right: 10px;
-    font-size: 18px;
+    font-size: 11px;
     font-weight: bold;
     color: #FFFFFF;
     background: #c78c19;
@@ -55,10 +55,10 @@ header {
 }
 
 .desencriptar{
-    width: 60%;
-    padding: 11px 11px;
+    width: 85px;
+    padding: 8px 8px;
     margin: 18px 0 18px 0;
-    font-size: 18px;
+    font-size: 11px;
     font-weight: bold;
     color: #FFFFFF;
     background: green;
@@ -69,26 +69,27 @@ header {
 .desencriptar:hover {
     background: darkgreen;
     cursor: pointer;
-    transform: scale(1.2) rotate(02deg);
+    transform: scale(1.2) rotate(01deg);
 }
 .desencriptar:active{
     color: #FFFFFF;
 }
-
-.respuesta{
-    font-size: 15px;
-    padding: 10px 10px;
-    background: linear-gradient(3deg, rgb(144, 144, 180) 10%, rgb(62, 62, 156), blue);
-    margin: 0.5em auto;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 500;
-    line-height: 150%;
+.copiar{
+    background: aqua;
+    font-size: 11px;
+    border-radius: 10px;
+    transition: 1s all;
 }
+.copiar:hover {
+    background: blue;
+    cursor: pointer;
+    transform: scale(1.2) rotate(01deg);
+}
+
 footer{
     text-align: center;
     background: url(imagenes/bg.jpg);
-    padding: 20px;
+    padding: 15px 15px;
 }
 
 
