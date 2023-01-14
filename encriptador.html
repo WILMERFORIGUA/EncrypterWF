@@ -28,15 +28,15 @@
         </section>
 
         <section class="texto">
-            <label for="mensaje"></label>
             <textarea cols="33" rows="10" name="mensaje" id="mensaje" class="input-padre" required placeholder="Escribe aquí tu mensaje porfavor (sin tíldes; sin acentos)"></textarea>
             <textarea cols="33" rows="10" name="respuesta" id="respuesta" class="input-padre" placeholder="su respuesta aquí"></textarea>
         </section>
+        <p> ATENCIÓN!     Solo minúsculas y sin acentos</p>
 
         <section class="botones">
-            <button type="button" class="encriptar" onclick="encriptar()">Encriptar</button>
-            <button type="button" class="desencriptar" onclick="desencriptar()">Desencriptar</button>
-            <button type="submit" class="copiar" onclick="copyText()" >Copiar</button>
+            <button id="encriptar" type="button" class="encriptar" onclick="encriptar()">Encriptar</button>
+            <button id="desencriptar" type="button" class="desencriptar" onclick="desencriptar()">Desencriptar</button>
+            <button id="copiar" type="submit" class="copiar" onclick="copiar()" >Copiar</button>
         </section>
 
     </main>

@@ -11,19 +11,26 @@ header {
     font-size: 20px;
     font-weight:bold;
     position: relative;
-    margin-left: 10%;
     padding: 10px 10px;
+    text-align: center;
+}
+body {
+    background-color: #ced4dd;
+    display: grid;
 }
 
 .texto{
+    width: 270px; 
+    margin-left: auto;
+    margin-right: auto;
     font-size: 15px;
-    padding: 10px 10px;
+    padding: 12px 18px;
     background: linear-gradient(3deg, gold 10%, red, black);
-    margin: 0.5em auto;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 500;
-    line-height: 150%;
+    line-height: 150%; 
+    
 }
 
 .texto:hover{
@@ -31,12 +38,21 @@ header {
     transition: 400ms;
     box-shadow: 10px 10px 30px 15px gold, inset -5px -5px 20px 19px gold;
 }
+P{
+    text-align: center;
+}
 
 /* botones*/
+.botones{
+    width: 280px; 
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .encriptar{
     width: 65px;
     padding: 8px  8px;
-    margin-right: 10px;
+    margin-right: 18px;
     font-size: 11px;
     font-weight: bold;
     color: #FFFFFF;
@@ -48,7 +64,7 @@ header {
 .encriptar:hover {
     background: darkorange;
     cursor: pointer;
-    transform: scale(1.2) rotate(02deg);
+    transform: scale(1.2) rotate(01deg);
 }
 .encriptar:active{
     color:#3ac04a;
@@ -57,7 +73,7 @@ header {
 .desencriptar{
     width: 85px;
     padding: 8px 8px;
-    margin: 18px 0 18px 0;
+    margin: 18px 18px 18px 0;
     font-size: 11px;
     font-weight: bold;
     color: #FFFFFF;
@@ -75,8 +91,11 @@ header {
     color: #FFFFFF;
 }
 .copiar{
+    width: 50px;
+    padding: 8px 8px;
     background: aqua;
     font-size: 11px;
+    font-weight: bold;
     border-radius: 10px;
     transition: 1s all;
 }
