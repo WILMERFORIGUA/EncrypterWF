@@ -34,20 +34,12 @@ body {
 }
 
 .texto:hover{
-    opacity: 0.9;
+    opacity: 0.8;
     transition: 400ms;
     box-shadow: 10px 10px 30px 15px gold, inset -5px -5px 20px 19px gold;
-    text-decoration: dotted;
 }
-.texto:active{
-    color: #088c19;   
-}
-
-p{
-    font-size: 11px;
-    width: 280px; 
-    margin-left: auto;
-    margin-right: auto; 
+P{
+    text-align: center;
 }
 
 /* botones*/
