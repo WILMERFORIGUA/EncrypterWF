@@ -1,0 +1,47 @@
+
+<!--Encrypter is a code to encrypt and to decrypt messages in text.  The languages used are  js, html5 and css3.-->
+
+<!DOCTYPE html>
+<html lang="es">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>(d)encryptWF</title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="encriptador.css">
+    </head>
+
+    <body>
+        <header>
+            <div class="encabezado">
+                <h1><img src="imagenes/logo_alura.jfif" alt="Logo de Alura"></h1>
+            </div>
+        </header>
+    </body>
+
+    <script src="encriptador.js"></script>
+
+    <main>
+        <section class="principal">
+            <h2 class="titulo-principal"> (DES)ENCRIPTADOR DE TEXTO</h2>
+        </section>
+
+        <section class="texto">
+            <textarea cols="33" rows="10" name="mensaje" id="mensaje" class="input-padre" required placeholder="ESCRIBE AQUÍ TU MENSAJE PORFAVOR  (sin tíldes; sin acentos)"></textarea>
+            <textarea cols="33" rows="10" name="respuesta" id="respuesta" class="input-padre" placeholder="su respuesta aquí"></textarea>
+            <p><img src="imagenes/attention-icon.png">No utilice letras con acentos y/ó caracteres especiales.</p>
+        </section>
+
+        <section class="botones">
+            <button id="encriptar" type="button" class="encriptar" onclick="encriptar()">Encriptar</button>
+            <button id="desencriptar" type="button" class="desencriptar" onclick="desencriptar()">Desencriptar</button>
+            <button id="copiar" type="submit" class="copiar" onclick="copiar()" >Copiar</button>
+        </section>
+
+    </main>
+
+    <footer>
+        <img src="imagenes/logoWF.png" alt="Logo del autor">
+        <p class="copyright">Copyright WF</p>
+    </footer>
