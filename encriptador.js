@@ -3,12 +3,18 @@ function encriptar() {
     var encryptedResult = getEncrypted; 
     var replacementResult = encryptedResult.replaceAll("e","enter").replaceAll("i","imes").replaceAll("o","ober").replaceAll("u","ufat").replaceAll("a","ai");
     document.getElementById("respuesta").innerHTML = replacementResult;
+    if (replacementResult==""){
+        alert("ATENCIÓN: Escriba un texto porfavor!");
+    }
 }
 function desencriptar() {
     var getEncrypted = document.getElementById("mensaje").value.toLowerCase().replace(/[^a-zA-Z0-9 ]/g, "");
     var encryptedResult = getEncrypted;
     var replacementResult = encryptedResult.replaceAll("enter","e").replaceAll("imes","i").replaceAll("ober","o").replaceAll("ufat","u").replaceAll("ai","a");
     document.getElementById("respuesta").innerHTML = replacementResult;
+    if (replacementResult==""){
+        alert("ATENCIÓN: Escriba un texto porfavor!");
+    }
 }
 function copiar() {
     var copyField = document.getElementById("respuesta");  
