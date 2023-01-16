@@ -29,7 +29,7 @@ body {
     font-family: 'Inter';
     font-style: normal;
     font-weight: 500;
-    line-height: 150%; 
+    line-height: 120%; 
     
 }
 
@@ -39,10 +39,10 @@ body {
     box-shadow: 10px 10px 30px 15px gold, inset -5px -5px 20px 19px gold;
 }
 P{
-    width: 280px; 
+    width: 290px; 
     margin-left: auto;
     margin-right: auto;
-    font-size: 11px;
+    font-size: 12px;
 }
 
 /* botones*/
